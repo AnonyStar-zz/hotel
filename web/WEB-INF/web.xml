@@ -7,10 +7,35 @@
         <servlet-name>FoodTypeServlet</servlet-name>
         <servlet-class>cn.anony.servlet.FoodTypeServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>DinnerTableServlet</servlet-name>
+        <servlet-class>cn.anony.servlet.DinnerTableServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>FoodServlet</servlet-name>
+        <servlet-class>cn.anony.servlet.FoodServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>OrderServlet</servlet-name>
+        <servlet-class>cn.anony.servlet.OrderServlet</servlet-class>
+    </servlet>
+
 
     <servlet-mapping>
         <servlet-name>FoodTypeServlet</servlet-name>
         <url-pattern>/foodType</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DinnerTableServlet</servlet-name>
+        <url-pattern>/table</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>FoodServlet</servlet-name>
+        <url-pattern>/food</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>OrderServlet</servlet-name>
+        <url-pattern>/order</url-pattern>
     </servlet-mapping>
 
     <welcome-file-list>
